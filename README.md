@@ -10,5 +10,19 @@ WordPress Workshop
     Password: 111111
 5. Enjoy :-)
 
+#### Install Gulp:
+    $ npm install --save-dev gulp
+        
+#### Install server-side dependencies
+    $ npm install
+    
+#### Run Gulp tasks
+    $ gulp
+    $ gulp watch
 
-(Note: Change http://localhost/wp-workshop/ to your database table of mytheme_options)
+#### Reference
+    https://github.com/yesubc/gulpjs-bower
+    
+Note: 
+1. Change http://localhost/wp-workshop/ to your database table of mytheme_options
+2. You need to install 'nodejs', 'npm' if you don't have them already.
