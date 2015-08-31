@@ -23,6 +23,6 @@ WordPress Workshop
 #### Reference
     https://github.com/yesubc/gulpjs-bower
     
-Note: 
+##### Note: 
 1. Change http://localhost/wp-workshop/ to your database table of mytheme_options
 2. You need to install 'nodejs', 'npm' if you don't have them already.
