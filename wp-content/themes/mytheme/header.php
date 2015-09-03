@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/html5shiv/dist/html5shiv.min.js">
 <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/css/mytheme.css">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/assets/css/mytheme.css">
 <?php //wp_head();?>
 </head>
 <body <?php body_class();?>>
