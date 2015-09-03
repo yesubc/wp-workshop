@@ -13,11 +13,9 @@
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="">
 <meta name="keywords" content="">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/font-awesome/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/html5shiv/dist/html5shiv.min.js">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js">
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/assets/css/mytheme.css">
-<?php //wp_head();?>
+<?php wp_head();?>
+<script src="<?php echo get_bloginfo('template_directory');?>/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+<script src="<?php echo get_bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 <body <?php body_class();?>>
 <h1><a href="<?php 
