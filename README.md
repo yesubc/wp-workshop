@@ -24,7 +24,7 @@ WordPress Workshop
     $ gulp watch
 
 #### Reference:
-    https://github.com/yesubc/gulpjs-bower
+https://github.com/yesubc/gulpjs-bower
     
 ##### Note: 
 1. Change http://localhost/wp-workshop/ to your database table of mytheme_options.
