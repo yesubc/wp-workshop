@@ -13,10 +13,13 @@ WordPress Workshop
 #### Install Gulp:
     $ npm install --save-dev gulp
         
-#### Install server-side dependencies
+#### Install Server-side Dependencies
     $ npm install
+
+#### Install Bower
+    $ npm install -g bower
     
-#### Run Gulp Tasks:
+#### Run Gulp Tasks
     $ gulp
     $ gulp watch
 
@@ -27,4 +30,4 @@ WordPress Workshop
 1. Change http://localhost/wp-workshop/ to your database table of mytheme_options.
 2. Gulp and NPM install in your theme location i.e. wp-content\themes\mytheme.
 3. You need to install 'nodejs', 'npm' if you don't have them already.
-4. Less automation; Go to "gulpfile.js" and enable to "Less" and disable to "SASS".
+4. Less Automation; Go to "gulpfile.js" and enable to "Less" and disable to all "SASS" property.
