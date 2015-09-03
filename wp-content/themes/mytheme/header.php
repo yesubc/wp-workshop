@@ -11,12 +11,12 @@
 <meta charset="<?php bloginfo('charset');?>">
 <title><?php bloginfo('name'); ?><?php wp_title(); ?></title>
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="<?php if ( is_single() ) {
-single_post_title('', true); 
-} else {
-    bloginfo('name'); echo " - "; bloginfo('description');
-}
-?>">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/html5shiv/dist/html5shiv.min.js">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/bower_components/jquery/dist/jquery.min.js">
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_directory');?>/css/mytheme.css">
 <?php //wp_head();?>
 </head>
 <body <?php body_class();?>>
