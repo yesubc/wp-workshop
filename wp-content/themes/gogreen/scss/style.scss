@@ -1,0 +1,7 @@
+@import "partials/variable";
+
+body{
+	font: $base-font $font-family;
+	color: $primary-color;
+	background: $background-color;
+}
