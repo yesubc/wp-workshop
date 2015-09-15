@@ -3,7 +3,9 @@
     Theme URI: http://localhost:1234/projects/workshop/wp-workshop/
     Author: Sunil Shrestha
     Author URI: http://yesubc.com
-    Description: Wordpress theme configure from scatch
+    Description: Wordpress theme workshop from scatch
     Version:1.0
     Tags: black, blue, gray, white, two-columns, left-sidebar
 */
+
+@import url("assets/css/mytheme.css");
