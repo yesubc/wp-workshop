@@ -1,0 +1,26 @@
+@media (min-width:768px){
+    /*COL2-RIGHT*/
+    .main{
+        width: 450px;
+        float: left;
+    }
+    .col-right{
+        width: 250px;
+        float: right;
+    }
+}
+@media (min-width: 992px){
+    /*COL2-RIGHT*/
+    .main{
+        width: 650px;
+    }
+}
+@media (min-width: 1200px){
+    /*COL2-RIGHT*/
+    .main{
+        width: 870px;
+    }
+    .col-right{
+        width: 270px;
+    }
+}

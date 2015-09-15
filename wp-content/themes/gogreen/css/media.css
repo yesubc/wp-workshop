@@ -1,0 +1,215 @@
+@media(min-width:768px){
+    .container{
+        width: 750px;
+        margin: 0 auto;
+    }
+    /*header start*/
+    #select-nav{
+        display: none;
+    }
+    .navigation{
+        display: block;
+    }
+    .navigation li{
+        margin:0 0 0 60px;
+        float:left;
+    }
+    .navigation li:last-child{
+        margin-right:8px;
+    }
+    .navigation li a{
+        display:block;
+        font-size:12px;
+        font-family: 'source_sans_probold';
+        color:#7a7880;
+        text-transform: uppercase;
+    }
+    .navigation li a:hover{
+        color:#fff;
+    }
+
+    form input[type="submit"]{
+        width: auto;
+    }
+
+    .footer-main h2{
+        text-align: left;
+    }
+    .about{
+        margin-left: 5px;
+    }
+    .social-icons{
+        margin-right:24px;
+    }
+    /*header end*/
+    .post-status{
+        width: 62px;
+        float: left;
+    }
+    .post-image{
+        width: 380px;
+        float: right;
+    }
+    /*CONTACT PAGE*/
+    .contact-info{
+        margin-bottom: 120px;
+    }
+    .col-right{
+        display: block;
+    }
+    /*BREADCRUMB*/
+    .breadcrumb h2{
+        float: left;
+        display: inline-block;
+        margin-bottom: 0;
+    }
+    .breadcrumb ul{
+        float: right;
+    }
+    /*footer start*/
+    .about,.social,.tag-div,.flickr{
+        float:left;  
+    }
+    .about{
+        width:48%;
+        margin-right:38px;
+    }
+    .social{
+        width:41%;
+    }
+    .tag-div{
+        margin:0 0 20px 0;
+    }
+    .about p{
+        text-align: left;
+    }
+    .social ul.tweets li{
+        text-align: left;
+    }
+    .sub-footer p{
+        //width:auto;
+        float: left;
+        margin-bottom: 0;
+    }
+.social-icons{
+    float: right;
+}
+    /*footer end*/
+}
+@media(min-width:992px){
+    .container{
+        width: 960px;
+    }
+    /*header start*/
+    .logo{
+        float: left;
+        margin:0;
+    }
+    .navigation{
+        padding-top:9px;
+        float: right;
+    }
+    /*header end*/
+    .post-user li{
+        float: left;
+        display: inline-block;
+        margin-left: 12px;
+    }
+    .post-user li:first-child{
+        margin-left: 0;
+    }
+    .post form input[type="text"], .post form input[type="email"], .post form textarea{
+        width: 183px;
+        margin-right: 23px;
+    }
+    .post form textarea{
+        width: 600px;
+    }
+    .post-image{
+        width: 580px;
+    }
+    /*CONTACT*/
+    .contact-info form .name{
+        width: 280px;
+        float: left;
+    }
+    .contact-info form .email{
+        width: 280px;
+        float: right;
+    }
+    .contact-info textarea{
+        width: 470px;
+    }
+    /*footer start*/
+    .footer-main{
+        padding:70px 0;
+    }
+    .social{
+        margin-right:38px;
+    }
+    .tag-div{
+        width: 50%;
+        /*margin-right:38px;*/
+        margin-bottom:-10px;
+    }
+    .flickr{
+        width: 45%;
+        float:right;
+    }
+    /*footer end*/
+}
+@media(min-width:1200px){
+    header{
+        padding: 42px 0 128px;  
+    } 
+    .container{
+        width: 1170px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .post-image{
+        width: 770px;
+    }
+    .post a img{
+        margin-left: 19px;
+    }
+    
+    /*CONTACT*/
+    .col-main .map{
+        margin: 0 56px 54px;
+    }
+    .contact-info form {
+        width: 470px;
+        float: left;
+        margin-bottom: 0;
+    }
+    .contact-info ul{
+        margin-right: 56px;
+        float: right;
+    }
+    .contact-info form .name{
+        width: 216px;
+    }
+    .contact-info form .email{
+        width: 216px;
+    }
+    /*footer start*/
+     .about,.social,.tag-div,.flickr{
+        margin-bottom:0;
+    }
+    .about{
+        width:259px;
+        margin-right:54px; 
+    }
+    .social{
+        width: 286px;  
+    }
+    .tag-div{
+        width: 289px;
+    }
+    .flickr{
+        width:174px;
+        margin-right:24px;
+    }  
+    /*footer end*/
+}
