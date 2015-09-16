@@ -1,0 +1,9 @@
+.menu-primary-menu-container{
+    @extend .float-right;
+    li{
+        display: inline-block;
+        a{
+            font-weight: bold;
+        }
+    }
+}

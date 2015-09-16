@@ -1,5 +1,40 @@
 @import "partials/variables";
 @import "partials/mixin";
 @import "partials/reset";
+@import "partials/fonts";
 @import "partials/global";
 @import "partials/layout";
+@import "partials/navigation";
+@import "partials/breadcrumb";
+
+.logo{
+    text-indent: -9999px;
+    font-style: 0;
+    display: inline-block;
+    a{
+        background: url("../images/logo-spirits.png") no-repeat;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        display: block;
+    }
+}
+
+.post-categories{
+    display: inline-block;
+    li{
+
+    }
+}
+
+footer{
+    color: #C8C8C8;
+    .ft-main{
+        padding: 70px 0;
+        .logo{
+            float: none;
+        }
+    }
+}
+
+@import "partials/media";

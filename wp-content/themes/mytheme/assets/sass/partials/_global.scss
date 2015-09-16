@@ -11,8 +11,8 @@ body {
 }
 
 body{
-    color: $global-gray;
-    font: normal $base-font-size $global-font-light;
+    color: $base-color;
+    font: normal $base-font-size $global-font;
     font-weight: 100;
     @include box-sizing(border-box);
 }
@@ -28,18 +28,18 @@ a{
     @include x-transition(all 0.3s ease-in-out);
     &:hover, &:focus{
         color: $global-green-hover;
-        text-decoration: underline;
+        //text-decoration: underline;
         outline: none;
         }
     }
 
 p{
     margin-bottom: 15px;
-  color: $global-gray;
+    color: $global-green;
     }
     
 h1,h2,h3,h4,h5,h6{
-    font-family: $global-font-light;
+    font-family: $global-font;
     margin-bottom: 20px;
     }
 
@@ -77,9 +77,12 @@ h6 {
     text-transform: uppercase;
 }
 
+ul,ol{
+  @extend .no-mp;
+}
+
 .after-pseudo {
   content: "";
-  //overflow: hidden;
   @extend .dis-block, .clearall;
 }
 
@@ -97,4 +100,9 @@ h6 {
 
 .float-right{
   float: $right;
+}
+
+.no-mp{
+  margin: 0;
+  padding: 0;
 }

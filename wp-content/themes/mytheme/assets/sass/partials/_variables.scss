@@ -1,6 +1,7 @@
 // COLOR
-$global-green : #66cc00;
-$global-green-hover : #99ff33;
+$base-color: #a1b1bc;
+$global-green : #a5a5a5;
+$global-green-hover : #87c89f;
 $global-green-focus : #339900;
 $global-gold: #ffcc00;
 $global-white: #ffffff;
@@ -14,7 +15,7 @@ $left: left;
 $right: right;
 
 // FONT
-$global-font: "montserratregular","Segoe UI",Arial,sans-serif;
+$global-font: 'source_sans_proregular', sans-serif;
 $global-font-light: "montserratlight","Segoe UI",Arial,sans-serif;
 $global-font-bold : "montserratbold","Segoe UI",Arial,sans-serif;
 $base-font-size: 14px;
@@ -30,7 +31,7 @@ $shadow-zindex: 2;
 
 // DIMENSION
 $width-default: 100%;
-$width-wrapper: 1000px;
+$width-wrapper: 100%;
 
 $left-width: (300/1000)*100%;
 $main-width: (700/1000)*100%;

@@ -8,6 +8,7 @@
                     while(have_posts()) : the_post(); ?>
                 <article>
                     <!--h2><?php the_title();?></h2-->
+                    <p><img src="<?php echo IMAGES;?>video-player.png" alt=""></p>
                     <?php the_content();?>
                 </article>
                 <?php endwhile; 
