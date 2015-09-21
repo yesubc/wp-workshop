@@ -57,29 +57,35 @@
             }
         }
     }
-    .main{
-        width: 450px;
-        float: left;
-    }
-    .col-right{
-        width: 250px;
-        float: right;
+    .col2-right-layout{
+        .main{
+            width: 450px;
+            float: left;
+        }
+        .col-right{
+            width: 250px;
+            float: right;
+        }
     }
 }
 
 
 @media (min-width: 992px){
     /*COL2-RIGHT*/
-    .main{
-        width: 650px;
+    .col2-right-layout{
+        .main{
+            width: 650px;
+        }
     }
 }
 @media (min-width: 1200px){
     /*COL2-RIGHT*/
-    .main{
-        width: 870px;
-    }
-    .col-right{
-        width: 270px;
+    .col2-right-layout{
+        .main{
+            width: 830px;
+        }
+        .col-right{
+            width: 270px;
+        }
     }
 }

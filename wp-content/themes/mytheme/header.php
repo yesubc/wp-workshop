@@ -10,10 +10,7 @@
 <head>
 <meta charset="<?php bloginfo('charset');?>">
 <title>
-    <?php 
-        wp_title('|', true, right);
-        bloginfo('name');
-    ?>
+<?php wp_title('|', true, right); bloginfo('name'); ?>
 </title>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="">

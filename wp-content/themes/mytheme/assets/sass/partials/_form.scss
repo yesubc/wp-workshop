@@ -1,0 +1,18 @@
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    $global-gray;
+    text-transform: uppercase;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    $global-gray;
+   opacity:  1;
+    text-transform: uppercase;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    $global-gray;
+   opacity:  1;
+    text-transform: uppercase;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    $global-gray;
+    text-transform: uppercase;
+}
