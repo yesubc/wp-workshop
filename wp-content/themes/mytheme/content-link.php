@@ -1,10 +1,4 @@
-<?php
-/**
- * The template for displaying posts in the Link post format.
- *
- * @package Sugar & Spice
- */
-?>
+
 <?php
 // Get the text & url from the first link in the content
 $story_content = get_the_content();

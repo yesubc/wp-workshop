@@ -22,6 +22,10 @@ function mytheme_setup() {
 
     // Enable support for HTML5 markup.
     add_theme_support( 'html5', array( 'comment-list', 'comment-form', ) );
+    
+    if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+        wp_enqueue_script( 'comment-reply' );
+    }
 
     // Remove Generator
     remove_action('wp_head', 'wp_generator');

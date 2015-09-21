@@ -1,9 +1,3 @@
-<?php
-/**
- * @package Parkhal
- */
-?>
-
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="main">
 	<div class="col-main">
 		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>

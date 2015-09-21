@@ -1,10 +1,3 @@
-<?php
-/**
- * The template used for displaying page content in page.php
- *
- * @package Parkhal
- */
-?>
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="main">
 	<div class="col-main">
