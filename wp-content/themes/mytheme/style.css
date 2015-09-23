@@ -1,0 +1,19 @@
+/*
+Theme Name: My Theme
+Theme URI: http://google.com
+Author: Shirish Shikhrakar
+Author URI: http://google.com
+Description: HTML5 Wordpress Responsive Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: hrrp://www.gnu.org/licenses/gpi-2.0.html
+Tags: black, gray, light,one-column, two-columns
+Text-Domain:Spirit
+*/
+
+/* IMPORT */
+@import url('css/reset.css');
+@import url('css/fonts.css');
+@import url('css/layout.css');
+@import url('css/style.css');
+@import url('css/media.css');

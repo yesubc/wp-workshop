@@ -1,0 +1,10 @@
+@import "partial/variable";
+
+body{
+	font: $base-font $base-font-family;
+	color: $primary-color;
+}
+header{
+	font: $base-font $base-font-family;
+	color: $primary-color;
+}
