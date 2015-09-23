@@ -86,8 +86,7 @@
     .social ul.tweets li{
         text-align: left;
     }
-    .sub-footer p{
-        //width:auto;
+    .sub-footer div.copy{
         float: left;
         margin-bottom: 0;
     }
@@ -194,6 +193,11 @@
         width: 216px;
     }
     /*footer start*/
+
+    .left-holder{
+        float: left;
+    }
+    
      .about,.social,.tag-div,.flickr{
         margin-bottom:0;
     }

@@ -136,6 +136,7 @@ header{
 }
 .post h2{
     font: 27px 'source_sans_proregular',sans-serif;
+    color: #a5a5a5;
     margin: 28px 0;
 }
 .post h2 a:hover{
@@ -158,15 +159,20 @@ header{
     padding-bottom: 22px;
     border-bottom: 1px solid #f3f3f3;
     margin-bottom: 29px;
+    display: inline-block;
+    color: #a5a5a5;
 }
 .post-info img{
     vertical-align: middle;
 }
 .post-info a{
-    display: inline-block;
-    padding-left: 12px;
-    position: absolute;
     width: 80%;
+}
+.post-info a:hover{
+    text-decoration: underline;
+}
+.post-info a:after{
+    display: inherit;
 }
 .post-info span{
     display: inline-block;
@@ -175,6 +181,7 @@ header{
     background: #f2f2f2;
     border-radius: 50%;
     text-indent: -999em;
+    margin-right: 12px;
     position: relative;
 }
 .author span{
@@ -189,11 +196,26 @@ header{
 .download span:hover{
     background: #3cc2af url('../images/icon-download.png') no-repeat center center;
 }
+.post li.depth-1{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f3f3f3;
+    margin: 10px 0 20px;
+}
+.post li.comment p{
+    font-style: italic;
+    font-size: 15px;
+    color: #170B0B; 
+}
+.post li.comment ul{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
 .post form{
     margin-bottom: 18px;
 }
-.post form span{
-    display: block;
+
+.post h3{
+    display: inline-block;
     font: 16px 'source_sans_proregular',sans-serif;
     color: #757c7f;
     margin-bottom: 22px;
@@ -208,6 +230,7 @@ header{
 }
 form input:focus[type="text"], form input:focus[type="email"], form textarea:focus{
     box-shadow: 0 0 5px #808080;
+    outline: none;
 }
 form input[type="submit"]{
     display: block;
@@ -293,7 +316,7 @@ form input[type="submit"]:hover{
     margin-left: 4px;
     display: inline-block;
 }
-.pagination li.active{
+.pagination li.active a{
     background: #87c89f;
     padding: 4px 11px;
     color: #fff;
@@ -405,7 +428,7 @@ form input[type="submit"]:hover{
     margin-bottom: 26px;
 }
 
-.col-right form input[type="text"]{
+.col-right form input[type="search"]{
     width: 100%;
     border: 1px solid #ccc;
     padding: 10px 8px 8px 30px;
@@ -414,8 +437,9 @@ form input[type="submit"]:hover{
     font-family: 'source_sans_proregular',sans-serif, arial;
 }
 
-.col-right form input[type="text"]:focus{
+.col-right form input:focus{
     box-shadow: 0 0 5px #808080;
+    outline: none;
 }
 
 .common-box {
@@ -429,7 +453,7 @@ form input[type="submit"]:hover{
 }
 
 .common-box ul li{
-    padding: 10px;
+    padding: 10px 10px 10px 0;
     border-bottom: 1px solid #f2f2f2;
 }
 
@@ -442,21 +466,24 @@ form input[type="submit"]:hover{
 }
 
 .common-box ul li a{
-    display: block;
+    display: inline-block;
     font: 14px 'source_sans_proregular',sans-serif;
     color: #a5a5a5;
 }
 
-.common-box ul.category li a{
+.common-box ul li.cat-item a{
     padding-left: 26px;
     background: url('../images/circle.png') no-repeat left center;
+}
+.common-box ul li:hover{
+    color: #87c89f;
 }
 
 .common-box ul li a:hover{
     color: #87c89f;
 }
 
-.common-box ul.category li a:hover{
+.common-box ul li.cat-item a:hover{
     background: url('../images/circle-active.png') no-repeat left center;
 }
 
@@ -517,16 +544,16 @@ footer{
 .tag-div{
     margin: 0 auto;
 }
-.tag{
+.wp-tag-cloud{
     margin-left:-14px;
 }
-.tag li{
+.wp-tag-cloud li{
     float: left;
     margin-left:14px;
     margin-bottom: 10px;
     text-align: center;
 }
-.tag li a{
+.wp-tag-cloud li a{
     width:87px;
     padding:10px 0;
     display: inline-block;
@@ -536,14 +563,10 @@ footer{
     background: #222;
     border-radius: 2px;
 }
-.tag li a:hover{
+.wp-tag-cloud li a:hover{
     text-decoration: none;
     background: #87c89f;
     color:#fff;
-}
-.flickr{
-    // width:174px;
-    //  margin:0 auto;
 }
 .flickr-ul{
     margin-left:-8px;
@@ -555,15 +578,12 @@ footer{
 .sub-footer{
     padding:16px 0 15px 0;
 }
-.sub-footer p{
+.sub-footer div.copy{
     font-size:14px;
     font-family: 'source_sans_proregular';
     color:#c8c8c8;
     line-height: 29px;
     margin-bottom: 20px;
-}
-.social-icons{
-    //float: right;
 }
 .social-icons li{
     float:left;
@@ -589,10 +609,16 @@ footer{
 .social-icons li.dt a{
     background-position: -113px;
 }
-.highlight{
+.highlight a{
     color:#fff;
 }
+.highlight a:hover{
+    text-decoration: underline; 
+}
 .highlight:after{
+    display:inherit;
+}
+.highlight a:after{
     display:inherit;
 }
 /*footer end*/

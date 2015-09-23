@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html <?php language_attributes();?>>
 <head>
-        <meta charset='<?php bloginfo('charset');?>'>
-        <title>Spirits Blog</title>
-        <meta content='width=device-width, initial-scale=1.0' name='viewport'>
-        <?php wp_head(); ?>
-        <!-- <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="css/fonts.css" type="text/css">
-        <link rel="stylesheet" href="css/custom.css" type="text/css">
-        <link rel="stylesheet" href="css/layout.css" type="text/css">
-        <link rel="stylesheet" href="css/media.css" type="text/css"> -->
-    </head>
+    <meta charset='<?php bloginfo('charset');?>'>
+    <title><?php bloginfo('name'); wp_title('|') ?></title>
+    <meta name='description' content="<?php bloginfo('description'); ?>">
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <?php wp_head(); ?>
+</head>	
 <body>
 	<div class="main-wrapper">
 	    <header>
 	        <div class="container">
-	            <h1 class="logo"><a href="#" title="spirits"><img src=<?php echo IMAGES. "spirits.png" ?> alt="Spirits"></a></h1>
+	            <h1 class="logo"><a href="<?php echo get_home_url(); ?>" title="spirits"><img src=<?php echo IMAGES. "spirits.png" ?> alt="Spirits"></a></h1>
 	            <?php 
 					$defaults = array(
 						'theme_location'  => 'navigation', //Defines which navigation location to use
@@ -36,22 +32,7 @@
 						'walker'          => ''
 					);
 
-	            	wp_nav_menu($defaults); ?>
-	            <!-- <select name="navigation" id="select-nav">
-	                <option>Home</option>
-	                <option>About</option>
-	                <option>Shortcodes</option>
-	                <option>Portfolio</option>
-	                <option>Blog</option>
-	                <option>Contact</option>
-	            </select>
-	            <ul class="navigation">
-	                <li><a href="#">Home</a></li>
-	                <li><a href="#">About</a></li>
-	                <li><a href="#">Shortcodes</a></li>
-	                <li><a href="post.html">Post</a></li>
-	                <li><a href="blog.html">Blog</a></li>
-	                <li><a href="contact.html">Contact</a></li>
-	            </ul> -->
+	            	wp_nav_menu($defaults); 
+            	?>
 	        </div>	
 	    </header>
